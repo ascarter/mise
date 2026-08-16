@@ -1,5 +1,65 @@
 # Changelog
 
+## [2026.8.7](https://github.com/jdx/mise/compare/v2026.8.6..v2026.8.7) - 2026-08-16
+
+### 🚀 Features
+
+- **(bootstrap)** add launchd throttle and queue keys by @CallumKerson in [#12015](https://github.com/jdx/mise/pull/12015)
+- **(dotfiles)** create real symlinks on Windows when allowed by @JamBalaya56562 in [#11978](https://github.com/jdx/mise/pull/11978)
+- **(install)** include task-specific tools by @Marukome0743 in [#11988](https://github.com/jdx/mise/pull/11988)
+
+### 🐛 Bug Fixes
+
+- **(backend)** preserve installed backend metadata by @jdx in [#12010](https://github.com/jdx/mise/pull/12010)
+- **(completion)** avoid loading project config by @Marukome0743 in [#12018](https://github.com/jdx/mise/pull/12018)
+- **(config)** write config files atomically by @TheTrueFerret in [#12040](https://github.com/jdx/mise/pull/12040)
+- **(env)** redact caller-provided values for required env directives by @stevenpollack in [#12017](https://github.com/jdx/mise/pull/12017)
+- **(http)** detect archive formats after redirects by @Marukome0743 in [#12011](https://github.com/jdx/mise/pull/12011)
+- **(path)** show one separator in a displayed Windows path by @JamBalaya56562 in [#12024](https://github.com/jdx/mise/pull/12024)
+- **(settings)** split path lists on the OS separator in the CLI by @JamBalaya56562 in [#12012](https://github.com/jdx/mise/pull/12012)
+- **(shell)** escape single quotes in pwsh env output by @JamBalaya56562 in [#12016](https://github.com/jdx/mise/pull/12016)
+- **(shim)** use snap payload for unix shims by @jdx in [#12035](https://github.com/jdx/mise/pull/12035)
+- **(shims)** match mise's own name case-insensitively on Windows by @JamBalaya56562 in [#11986](https://github.com/jdx/mise/pull/11986)
+- **(sops)** support multiple age keys by @Marukome0743 in [#12034](https://github.com/jdx/mise/pull/12034)
+- **(task)** warn on an unknown file-task header key instead of failing by @JamBalaya56562 in [#12007](https://github.com/jdx/mise/pull/12007)
+- **(task)** find a file task whose shebang follows a byte-order mark by @JamBalaya56562 in [#12013](https://github.com/jdx/mise/pull/12013)
+- **(task)** treat a .sh sibling as the POSIX half on Windows by @JamBalaya56562 in [#11992](https://github.com/jdx/mise/pull/11992)
+- **(tool)** exclude os-inactive inspection versions by @risu729 in [#12021](https://github.com/jdx/mise/pull/12021)
+- **(trust)** stop printing extended-length path prefixes by @JamBalaya56562 in [#12014](https://github.com/jdx/mise/pull/12014)
+- **(vfox)** install latest chromedriver on Windows by @jdx in [#12039](https://github.com/jdx/mise/pull/12039)
+
+### 📚 Documentation
+
+- **(deps)** preserve tera examples in rendered page by @jdx in [#12030](https://github.com/jdx/mise/pull/12030)
+- **(tasks)** describe how a file task is detected on Windows by @JamBalaya56562 in [#12008](https://github.com/jdx/mise/pull/12008)
+- document devEngines and packageManager config support by @iloveitaly in [#12043](https://github.com/jdx/mise/pull/12043)
+
+### 🧪 Testing
+
+- **(cli)** use actual dummy backend in where fixture by @jdx in [#12029](https://github.com/jdx/mise/pull/12029)
+- **(task)** re-enable the task_source_files case disabled on Windows by @JamBalaya56562 in [#12032](https://github.com/jdx/mise/pull/12032)
+
+### Chore
+
+- **(ci)** enable greptile reviews for draft prs by @risu729 in [#12001](https://github.com/jdx/mise/pull/12001)
+- **(ci)** preserve paired e2e tranche failures by @jdx in [#12033](https://github.com/jdx/mise/pull/12033)
+
+### E2e
+
+- install libgtk-3-0t64 so GTK tools can run their registry test by @dmezhnov in [#12009](https://github.com/jdx/mise/pull/12009)
+
+### New Contributors
+
+- @CallumKerson made their first contribution in [#12015](https://github.com/jdx/mise/pull/12015)
+- @TheTrueFerret made their first contribution in [#12040](https://github.com/jdx/mise/pull/12040)
+- @dmezhnov made their first contribution in [#12009](https://github.com/jdx/mise/pull/12009)
+
+### 📦 Aqua Registry Updates
+
+#### Updated Packages (1)
+
+- [`mekedron/wolt-cli`](https://github.com/mekedron/wolt-cli)
+
 ## [2026.8.6](https://github.com/jdx/mise/compare/v2026.8.5..v2026.8.6) - 2026-08-14
 
 ### 🚀 Features
